@@ -1,0 +1,23 @@
+
+1) Save User
+------------
+Request URL: http://localhost:8080/user/saveUser
+Request Method: POST
+Payload:
+{
+	"username": "admin",
+	"password": "admin@123",
+	"email": "admin@gmail.com",
+	"roles": ["Admin", "Manager"]
+}
+
+2)Login User
+------------
+Request URL: http://localhost:8080/user/loginUser
+Request Method: POST
+Payload:
+{
+	"username": "admin",
+	"password": "admin@123"
+}
+
