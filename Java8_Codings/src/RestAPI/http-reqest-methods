@@ -1,0 +1,11 @@
+
+GET 	- It is used to request data from a specified resource.
+HEAD 	- The HEAD method is identical to GET except that the server MUST NOT return a message-body in the response.
+
+POST	- is used to send data to a server to create a resource.
+PUT 	- Transforming the resources when the client transmits whole data/ whole resource.
+PATCH	- Transforming the resources when the client transmits partial data that will be updated without changing the whole data.
+
+DELETE	- It is used to delete the specified resource. 
+OPTIONS	- It is used to communication options for the target resource.
+	
